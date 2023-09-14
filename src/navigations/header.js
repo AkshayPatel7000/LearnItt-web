@@ -21,7 +21,7 @@ import StudentDetail from "../services/StudentService";
 import { ThemeColors } from "../theme/theme";
 import CheckAuth from "../utils/hooks/checkAuth";
 import { RouteConstant } from "../utils/routes/constant";
-
+import newLogo from "../assets/images/lbf.png";
 export default function Header() {
   /* eslint-disable */
   const checkConditons =
@@ -88,7 +88,10 @@ export default function Header() {
 
         {!isVerified && (
           <div style={{ paddingLeft: "2.3%" }}>
-            <HeadLogo />
+            <div style={{ width: "52px", height: "52px" }}>
+              <img src={newLogo} style={{ width: "100%", height: "100%" }} />
+            </div>
+            {/* <HeadLogo /> */}
             {/* <XLargHeading text="Krackitt" /> */}
           </div>
         )}
