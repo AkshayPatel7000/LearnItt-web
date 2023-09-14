@@ -55,7 +55,8 @@ export const SubContentDiv = styled.div`
   border-radius: 12px;
   margin-bottom: 10px;
   transition: 0.3s;
-  margin-left: 40px;
+  padding: 10px 0px 10px 40px;
+
   display: flex;
   justify-content: start;
   align-items: center;
