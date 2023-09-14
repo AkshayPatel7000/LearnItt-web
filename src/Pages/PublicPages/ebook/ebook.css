@@ -1,0 +1,342 @@
+.pop-Tabcontain {
+}
+
+.ebooktab {
+  display: flex;
+
+  gap: 10px;
+}
+
+.ebooktab1 {
+  display: flex;
+  gap: 10px;
+}
+
+.ebooktab button {
+  background-color: #ffff;
+  border: 1px solid #4fa4f4;
+  color: #4fa4f4;
+  cursor: pointer;
+  padding: 7px 20px;
+  background-color: #ffff;
+  transition: all 0.5s ease-out;
+  border-radius: 5px;
+}
+
+.ebooktab button:hover {
+  color: white;
+  background-color: #4fa4f4 !important;
+}
+
+.ebooktab button:disabled {
+  background: #4fa4f4;
+  color: white;
+}
+
+.ebooktab1 button:disabled {
+  background: #4fa4f4;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.Sdropdown-item:active {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.customtoggle::after {
+  border: none !important;
+  height: auto;
+  margin-left: 5px;
+}
+
+.SmultiLevelDD::after {
+  border: none !important;
+  height: auto;
+  padding-left: 5px;
+  margin-top: -2px;
+}
+
+.SsubDropDown::after {
+  height: auto;
+  padding-left: 50px;
+  margin-top: -2px;
+}
+
+.Sitems {
+  font-weight: 500 !important;
+  font-family: "Medium";
+  font-size: 16px;
+}
+
+.subIteCms {
+  font-weight: 500 !important;
+  font-size: 15px;
+}
+
+.Sitems:hover,
+.subItems:hover {
+  background-color: #ecf5ff !important;
+}
+
+.hover-class:hover {
+  cursor: pointer;
+}
+
+.t-t {
+  color: #4fa4f4 !important;
+}
+
+.form-control {
+  border: 1px solid #4fa4f4 !important;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ffff !important;
+}
+
+.form-control:focus {
+  color: #ffff;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.tabField {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  height: 42px;
+}
+
+.tab-h {
+  height: 42px;
+}
+
+.tab-h .selected {
+  background-color: #4fa4f4 !important;
+  color: white;
+}
+
+.tab-h {
+  height: 42px;
+}
+
+@media only screen and (max-width: 400px) {
+  .c-pop {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menu {
+    width: 424px !important;
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+.s-b {
+  width: 20%;
+}
+.popup-container1 {
+  position: relative;
+  /* display: flex; */
+}
+
+.menu-trigger:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-trigger span {
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.menu-trigger img {
+  border-radius: 90px;
+}
+
+.menu {
+  background: #ffffff;
+  border-radius: 8px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 300px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .E-book-field {
+    flex-direction: column;
+  }
+}
+
+.menu li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 15px 20px;
+  display: block;
+}
+
+.ebookcustom-toggl::after {
+  position: absolute !important;
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAYAAAAxrNxjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABzSURBVHgBdY+xEYAgDEUTJnAEx7DEDRhJJ9BR2EBKOldwBEuhAP3e5Y5DfNXPz08uYa1NRw/O2ZMaSF+Fi9YYeB8G09cheOjFqBaViaZ3gnkrw9DwoFNKM3/MnEcZlNp7e3BrgyAhaK5vqjfRH/hSPi25ASmQNzW3LcRFAAAAAElFTkSuQmCC") !important;
+  border: none !important;
+  top: 0 !important;
+  justify-content: end !important;
+  margin-left: 10.5rem !important;
+  margin-top: 0.5em !important;
+}
+
+@media only screen and (max-width: 440px) {
+  .ebookcustom-toggl::after {
+    margin-left: 6.5rem !important;
+  }
+}
+
+.display-grid-temp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.display-grid-temp2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+@media only screen and (max-width: 500px) {
+  .des-test {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .eb-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .popupSet {
+    margin-right: 200px;
+  }
+}
+
+.popUp {
+  position: absolute;
+  z-index: 1000;
+  width: 248px;
+  height: 134px;
+  right: 90px;
+  top: 140x;
+  background: #ffffff;
+  padding: 20px;
+
+  box-shadow: 0px 15px 40px rgba(81, 93, 105, 0.1);
+  border-radius: 10px;
+}
+
+.popUp > p {
+  color: #787f86;
+  cursor: pointer;
+}
+
+.react-pdf__Page {
+  max-width: max-content !important;
+}
+
+.react-pdf__Page__textContent {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  max-height: max-content;
+
+  padding: 10px 35px 10px 35px;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  line-height: 18px;
+}
+
+.react-pdf__Page__canvas {
+  width: 100%;
+  max-height: 850px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+
+.pageNumber {
+  box-sizing: border-box;
+  background-color: #333333;
+  color: white;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ebookTab1 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 400px) {
+  .ebookTab1 {
+    display: flex;
+    flex-wrap: none;
+  }
+}
+
+.ebookTab1 button {
+  background-color: #ffff;
+  border: 1px solid #4fa4f4;
+  color: #4fa4f4;
+  cursor: pointer;
+  padding: 7px 20px;
+  background-color: #ffff;
+  transition: all 0.5s ease-out;
+  border-radius: 5px;
+}
+
+.ebookTab1 button:hover {
+  color: white;
+  background-color: #4fa4f4 !important;
+}
+
+.ebookTab1 .selected {
+  color: white;
+  background-color: #4fa4f4 !important;
+}
+
+.ebookTab1 button:disabled {
+  background: #4fa4f4 !important;
+  color: white;
+}

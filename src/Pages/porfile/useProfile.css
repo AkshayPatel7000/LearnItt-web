@@ -1,0 +1,21 @@
+.hello {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1100px) {
+  .profileField {
+    width: 80% !important;
+  }
+}
+
+.container1 {
+  position: relative;
+}
+.container1 img {
+  display: block;
+}
+.container1 .icon {
+  position: absolute;
+  top: 10.1rem;
+  left: 6.5rem;
+}

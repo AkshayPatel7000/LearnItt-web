@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px){
+    .cm-flex-wrap{
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+.cm-justify-content{
+    justify-content: flex-start !important;
+}
+}
+@media screen and (min-width: 500px){
+    .cm-justify-content{
+        justify-content: flex-end !important;
+    }
+}

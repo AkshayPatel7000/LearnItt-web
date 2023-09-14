@@ -1,0 +1,16 @@
+.privayPolicy {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0b1c30;
+}
+.listHeader {
+  color: #0b1c30;
+  font-weight: 700;
+}
+.privacyText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}

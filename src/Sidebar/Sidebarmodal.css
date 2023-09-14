@@ -1,0 +1,34 @@
+.modal__backdrop1 {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  display: grid;
+
+  backdrop-filter: blur(7px);
+}
+
+.modal__container1 {
+  border-radius: 1px;
+  height: 100%;
+  width: 95%;
+}
+
+.modal__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.exam-modal-background {
+  background-color: #ecf5ff;
+  font-size: 14px;
+}
+.boxes p {
+  font-family: "Medium";
+  margin-bottom: 0;
+}

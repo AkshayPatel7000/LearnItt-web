@@ -1,0 +1,130 @@
+.solution {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.solution button {
+  background-color: #f0f5fb;
+  /* border: 1px solid #4fa4f4; */
+  color: #787f86;
+
+  cursor: pointer;
+  padding: 7px 20px;
+
+  transition: all 0.5s ease-out;
+  border-radius: 5px;
+  border: none;
+}
+
+.selected {
+  color: #787f86;
+  /* background-color: #4fa4f4 !important; */
+}
+
+.solution .selected {
+  color: white;
+  background-color: #4fa4f4 !important;
+}
+.solution button:disabled {
+  background: #4fa4f4 !important;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #4fa4f4;
+  background-color: #ffff;
+  box-shadow: none;
+}
+
+/* ========================> */
+.solposition {
+  position: absolute;
+  z-index: 10;
+  left: 12px;
+  top: 10px;
+}
+.soldid-floating-label-content {
+  position: relative;
+}
+.soldid-floating-input,
+.soldid-floating-select {
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 0 20px;
+  background: #fff !important;
+  color: #787f86 !important;
+
+  border-radius: 5px;
+
+  line-height: 15px !important;
+}
+
+.soldid-floating-select {
+  border: none !important;
+}
+.soldid-floating-select:disabled ~ .soldid-floating-label {
+  display: none;
+}
+select.soldid-floating-select:focus ~ .soldid-floating-label {
+  color: #4fa4f4;
+  display: block;
+}
+
+.soldid-floating-select:not([value=""]):valid ~ .soldid-floating-label {
+  top: -8px;
+  font-size: 13px;
+}
+select.soldid-floating-select::-ms-expand {
+  color: #4fa4f4;
+}
+
+select.soldid-floating-select:not(:active) ~ .soldid-floating-label {
+  top: -8px;
+  font-size: 12px;
+  color: #4fa4f4;
+  display: none;
+  left: 22px;
+}
+
+.soldid-floating-label {
+  color: #4fa4f4;
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 8px;
+  padding: 0 5px;
+  background: #fff;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.soldid-floating-input:not([value=""]) {
+  background: white;
+}
+
+.soldid-floating-input:not(:placeholder-shown) ~ .soldid-floating-label {
+  top: -8px;
+  font-size: 12px;
+  color: #4fa4f4;
+}
+.soldid-floating-input:not(:placeholder-shown) {
+  outline: none;
+  border: 1px solid #4fa4f4;
+}
+.soldid-floating-input:placeholder-shown ~ .soldid-floating-label {
+  display: none;
+}
+
+.soldid-floating-input:focus ~ .soldid-floating-label {
+  color: #4fa4f4;
+  display: block;
+}
+.section-field {
+  border: none !important;
+}

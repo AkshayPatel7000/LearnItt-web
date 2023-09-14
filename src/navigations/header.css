@@ -1,0 +1,40 @@
+.logoTest {
+  font-size: 36px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+}
+.H-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-block: 10px;
+}
+.H-test {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b1c30;
+  font-family: "Outfit", sans-serif;
+}
+.tribarShow {
+}
+
+@media only screen and (min-width: 761px) {
+  .tribarShow {
+    display: none;
+  }
+}
+.profileDropDown::after {
+  display: none !important;
+}
+.C-subHeading {
+  font-size: 14px;
+  font-weight: 4m00;
+  color: #0b1c30;
+  font-family: Medium;
+  padding-bottom: 20px;
+}
+.profileMenu  >li> a{
+  cursor: pointer;
+}

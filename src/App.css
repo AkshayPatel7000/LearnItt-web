@@ -1,0 +1,264 @@
+:root {
+  --bgColor: #243441;
+  --color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Regular, Roboto;
+  background-color: #fafafa !important;
+}
+.Bold {
+  font-family: Bold;
+}
+.BoldItalic {
+  font-family: BoldItalic;
+}
+.Light {
+  font-family: Light;
+}
+.Regular {
+  font-family: Regular;
+}
+.Medium {
+  font-family: Medium;
+}
+.SemiBold {
+  font-family: SemiBold;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.inner-container {
+  display: flex;
+  height: 100%;
+}
+
+.half1 {
+  flex: 1 1 45%;
+  height: 100%;
+  color: black;
+
+  text-align: center;
+}
+.half2 {
+  flex: 1 1 55%;
+  height: 100%;
+  color: black;
+
+  text-align: center;
+}
+
+.underline-small {
+  color: attr(data-content);
+  display: inline-block;
+  position: relative;
+}
+
+.underline-small::after {
+  content: "";
+  height: 2px;
+  width: 20%;
+  background: attr(data-content);
+  position: absolute;
+  left: calc(0%);
+  bottom: -5px;
+}
+.section {
+  width: 80%;
+  height: 50%;
+  min-width: 350px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2% 0 2%;
+  background: #ffff;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    justify-content: space-around;
+    padding: 0;
+    padding-top: 1rem;
+  }
+}
+
+.rounded-checkbox {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.rounded-checkbox:checked {
+  appearance: auto;
+  clipPath: circle(50% at 50% 50%);
+  background-color: blue;
+}
+
+.upload-container {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  border: 1px dashed rgba(black, 0.2);
+}
+
+.blob-container {
+  display: flex;
+  justify-content: center;
+}
+.blob-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  column-gap: 9rem;
+}
+
+.selectButton {
+  border: 0;
+  border-radius: 4px;
+  width: "-webkit-fill-available";
+  padding: 15px 0 15px 15px;
+  position: relative;
+  text-align: left;
+  display: flex;
+}
+.selectButton p {
+  margin: 0;
+  padding: 3px 0 0 25px;
+  font-size: larger;
+}
+.selectButton:hover {
+  cursor: pointer;
+}
+
+.selectButton::after {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  content: "02C7";
+  font-size: xx-large;
+}
+
+.expanded::after {
+  content: " \02C6";
+  font-size: xx-large;
+}
+
+ul.options {
+  display: none;
+  list-style: none;
+  padding: 4px 0;
+  margin-top: 1px;
+}
+
+ul.show {
+  display: block;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+  }
+  .Aleft-flex {
+    width: 115%;
+  }
+}
+
+.input-feedback {
+  color: red;
+  margin-top: 1px;
+  font-size: 12px;
+}
+.pointer {
+  cursor: pointer;
+}
+.preborder {
+  border: 1px solid #fabf48 !important;
+  border-radius: 20px !important;
+}
+.precompleted {
+  border: 1px solid #8ad0af !important;
+  border-radius: 20px !important;
+}
+.previsited {
+  border: 1px solid #739ef1 !important;
+  border-radius: 20px !important;
+}
+
+.questionSetBox {
+  padding: 5px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+.queSpan p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.mcqType {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 10px 0 10px 10px;
+}
+/* custom General instruction */
+/* figure .customTable th,  
+td {
+  border: 1px solid black;
+  border-width: 1px !important;
+} */
+.customTable,
+td {
+  padding-inline: 10px;
+}
+figure table {
+  width: 100%;
+}
+.customImg {
+  width: 70% !important;
+  height: 50px;
+}
+
+/* analysis table  */
+.table-bordered > :not(caption) > * {
+  border-width: 1px 1px !important;
+}
+.table-bordered > :not(caption) > * > * {
+  border-width: 1px 0px !important;
+}
+
+.purchaseDate{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+text-transform: uppercase;
+color: #787F86;
+}
+
+/* .description{
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */

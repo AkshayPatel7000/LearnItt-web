@@ -1,0 +1,67 @@
+.Card-b {
+  flex-direction: row;
+  grid-template-columns: auto auto;
+}
+.My_card {
+  background-color: #ffff;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 494px) {
+  .media {
+    display: grid !important;
+  }
+  .media > .IMG {
+    display: flex;
+    justify-content: center;
+  }
+}
+.display-f {
+  display: flex;
+}
+.display-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.gap-30 {
+  column-gap: 30px;
+}
+.gap-10 {
+  column-gap: 10px;
+}
+.gap-20 {
+  column-gap: 20px;
+}
+.w100 {
+  width: 100%;
+}
+.p_card {
+  padding: 30px 30px 10px;
+}
+.p20 {
+  padding: 20px;
+}
+/* hr {
+  margin: 10px 0 !important;
+} */
+.f-sz14 {
+  font-size: 14px;
+}
+.f-w600 {
+  font-weight: 600;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.gridIMG {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+}
+.heightcard {
+  height: fit-content !important;
+  /* width: 396px !important; */
+}
+/* hr { */
+  /* margin: 1rem !important; */
+/* } */

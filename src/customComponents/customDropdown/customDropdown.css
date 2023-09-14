@@ -1,0 +1,60 @@
+.dropdown .btn {
+  /* min-width: 120px; */
+  height: 40px !important;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #4fa4f4 !important;
+  width: 100%;
+}
+
+.dropdown .btn.show {
+  border: 1px solid #4fa4f4 !important;
+  color: #4fa4f4 !important;
+
+}
+.custom-toggle::after {
+  position: absolute !important;
+  content: url(../../assets/images/arrowBefore.png) !important;
+  border: none !important;
+  top: 5px !important;
+  right: 10px;
+  justify-content: end !important;
+  height: auto;
+  /* margin-left: 5rem !important;
+  margin-top: 0.5em !important; */
+}
+.dropdown .custom-toggle.btn.show::after {
+  content: url(../../assets/images/arrowAfter.png) !important;
+}
+.custom-toggle1::after {
+  position: absolute !important;
+  content: url(../../assets/images/Vector.png) !important;
+  border: none !important;
+  top: 5px !important;
+  right: 10px;
+  justify-content: end !important;
+  height: auto;
+  /* margin-left: 3.5rem !important; */
+  /* margin-top: 5px !important; */
+}
+.dropdown .custom-toggle1.btn.show::after {
+  content: url(../../assets/images/Vector.png) !important;
+}
+.dropdown-custom {
+  --bs-dropdown-min-width: 10rem !important;
+  overflow-y: auto !important;
+  max-height: 200px !important ;
+  width: -webkit-fill-available !important;
+}
+
+.dropdown-item:active {
+  background-color: #e5ecf0 !important;
+  color: #4fa4f4 !important;
+}
+
+.selected {
+  background-color: #e5ecf0;
+}
+.selected p {
+  color: #4fa4f4;
+}

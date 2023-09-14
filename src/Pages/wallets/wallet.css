@@ -1,0 +1,97 @@
+.balCard {
+    background: conic-gradient(from 210.27deg at 74.16% 50%, #4fa4f4 0deg, #0b1c30 360deg);
+    border-radius: 20px;
+    height: 160px;
+    padding: 20px;
+}
+
+.addMoney {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    background: #f0f5fb;
+    border-radius: 5px;
+
+    min-height: 70px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.walletTable td {
+    border-width: 0px !important;
+}
+.walletMoney {
+    color: #4fa4f4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+
+    min-height: 70px;
+    border: 1px solid #4fa4f4;
+    border-radius: 5px;
+    background: #ffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.g-10 {
+    gap: 10px;
+}
+
+.miniTransaction {
+    max-width: 714px;
+    max-height: 739px;
+    background: #ffffff;
+    overflow: auto;
+    max-height: 75vh;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 14px 15px;
+    background: #fafafa;
+    border: 1px solid #e5ecf0;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.searchIcon {
+    position: absolute;
+    margin-top: 22px;
+}
+
+.search {
+    border: none;
+    background: #fafafa;
+    width: 90%;
+}
+
+.search:focus-visible {
+    border: none;
+    background: #fafafa;
+    width: 90%;
+}
+
+.tablerow {
+    height: 80px;
+    border-bottom: 1px solid #e5ecf0;
+}
+
+.btnDownload {
+    background: #0b1c30;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fafafa;
+    min-height: 52px;
+    background: #0b1c30;
+    border-radius: 5px;
+    width: 100%;
+}

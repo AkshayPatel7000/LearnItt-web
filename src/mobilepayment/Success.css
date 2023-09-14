@@ -1,0 +1,75 @@
+.H1 {
+    color: #88B04B !important;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+  }
+
+  .H2 {
+    color: #ff6100ad  !important;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+  }
+  
+  .P1 {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+i {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+  display: flex;
+    justify-content: center;
+}
+.cardSuccess {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: inline-block;
+  margin: 0 auto;
+    justify-content: center;
+
+}
+.buttonSuccess{
+    padding: 10px;
+    background-color: #4FA4F4;
+    border: none;
+    border-radius: 50px !important;
+    color: white;
+    font-weight: 600;
+}
+
+.cross {
+  color: #ff6100ad;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+  display: flex;
+    justify-content: center;
+}
+.cardFail {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: inline-block;
+  margin: 0 auto;
+    justify-content: center;
+}

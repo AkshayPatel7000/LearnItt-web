@@ -1,0 +1,143 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #4fa4f4 !important;
+  color: #fff !important;
+}
+.nav-item {
+  background-color: #f0f5fb;
+  border-radius: 5px;
+}
+.nav-pills {
+  column-gap: 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.nav-link {
+  color: #787f86 !important;
+}
+.overflowCard {
+  border: 1px solid #f0f5fb;
+}
+.overflowCard1 {
+  border: 1px solid #f0f5fb;
+  width: 100%;
+  height: 72px;
+  border-radius: 5px;
+}
+.barCard {
+  border: 1px solid #f0f5fb;
+}
+@media only screen and (max-width: 461px) {
+  .nav-item {
+    margin-top: 10px;
+  }
+}
+.Totalmark {
+  writing-mode: tb;
+  transform: rotate(-540deg);
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1360px) {
+  .overflowCard1 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1880px) {
+  .barCard {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .staticContainer {
+    display: block !important;
+  }
+  .overflowCard {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .barCard {
+    width: 500px !important;
+    overflow-x: scroll !important;
+  }
+}
+.staticContainer {
+  display: flex;
+}
+
+@media (min-width: 762px) and (max-width: 850px) {
+  .barCard {
+    width: 420px !important;
+    overflow-x: scroll !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 761px) {
+  .barCard {
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  .barCard {
+    width: 400px !important;
+    overflow-x: scroll !important;
+  }
+}
+@media (max-width: 460px) {
+  .scrollmenu {
+    width: 250px;
+    flex-wrap: wrap;
+  }
+}
+.Tabcontainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tabs button {
+  background-color: #f0f5fb;
+  border: none;
+  color: #787f86;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #f0f5fb;
+  transition: all 0.5s ease-out;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tabs button:hover {
+  color: rgb(0, 0, 0);
+  background-color: #f0f5fb;
+}
+
+.tabs button:disabled {
+  background: #4fa4f4;
+  color: white;
+}
+@media only screen and (max-width: 960px) {
+  .content {
+    padding: 50px;
+  }
+}
+.content {
+  padding: 50px 80px;
+  background-color: white;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.content,
+button {
+  font-size: 15px;
+}

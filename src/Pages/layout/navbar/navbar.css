@@ -1,0 +1,80 @@
+.toggle-sidebar-btn {
+    font-size: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #012970;
+  }
+  .toggle-sidebar-btn {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .toggle-sidebar-btn {
+      display: block;
+    }
+  }
+  .search-bar-container {
+    padding-inline: 1rem;
+    margin-bottom: 10px;
+  }
+  .search {
+    background-color: #f6f6f6;
+    border: none;
+  }
+  .search-bar {
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-inline: 0.7rem 1rem;
+    border-radius: 5px;
+  }
+  .search::placeholder {
+    color: #b2becd;
+  }
+  .search:focus,
+  input:focus {
+    outline: none;
+  }
+  .noti-red-badge {
+    left: 16px !important;
+    top: 4px !important;
+  }
+  
+  .navdropdown {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px !important;
+    transform: translate(45px, 83px) !important;
+  }
+  .navdropdown {
+    position: relative !important;
+    cursor: pointer !important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 0px !important;
+  }
+  
+  .navdropdown:before {
+    content: "" !important;
+    position: absolute !important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #e2e8ee !important;
+  }
+  .navdropdown:checked:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+  }

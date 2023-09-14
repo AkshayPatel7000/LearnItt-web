@@ -1,0 +1,70 @@
+.outerDivLogin {
+  width: 100%;
+}
+
+.height {
+  height: 100vh;
+}
+
+.height1 {
+  border-top: 1px solid #D9DEEC;
+}
+.outerflex {
+  display: grid;
+  height: 86%;
+  width: 100%;
+  grid-template-columns: 0.7fr 0.9fr;
+  flex-wrap: wrap;
+}
+.left-flex {
+  flex: 1 1 45%;
+  height: 85%;
+  min-width: 335px;
+}
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-flex {
+  flex: 1 1 55%;
+  height: 100vh;
+  width: 100%;
+  min-width: 360px;
+}
+.innerDiv {
+  width: 100%;
+  height: 100%;
+}
+
+
+input.error {
+  border-color: red;
+}
+
+select {
+ width: 100%;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+  .left-flex {
+    padding-inline: min(13%, 3vw);
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1140px) {
+  .right-flex{
+      height: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .outerflex {
+    grid-template-columns: 1fr;
+  }
+  .right-flex {
+    display: none;
+  }
+  .responsiveImg {
+    display: none;
+  }
+}
