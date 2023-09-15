@@ -87,7 +87,7 @@ export const Siderbar = ({ on, setOn, length }) => {
           <div
             className="ms-4 mt-2 pointer"
             onClick={() => {
-              navigate(RouteConstant?.termsCondition);
+              // navigate(RouteConstant?.termsCondition);
             }}
           >
             <CategoryHeading text={`Terms & Conditions`} />
@@ -95,7 +95,7 @@ export const Siderbar = ({ on, setOn, length }) => {
           <div
             className="ms-4 mt-2 pointer"
             onClick={() => {
-              navigate(RouteConstant?.privacyPolicy);
+              // navigate(RouteConstant?.privacyPolicy);
             }}
           >
             <CategoryHeading text={`Privacy Policy ${version}`} />
